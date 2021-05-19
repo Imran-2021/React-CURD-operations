@@ -9,6 +9,8 @@ import {
   Route,
 } from "react-router-dom";
 import NotFound from './Components/Pages/NotFound';
+import Footer from './Components/LayOut/Footer';
+import AddUser from './Users/AddUser';
 
 function App() {
 
@@ -25,10 +27,14 @@ function App() {
         <Route exact path="/contact">
            <Contact/>
         </Route>
+        <Route exact path="/users/add">
+           <AddUser/>
+        </Route>
         <Route>
            <NotFound/>
         </Route>
       </Switch>
+      <Footer/>
     </Router>
   );
 }

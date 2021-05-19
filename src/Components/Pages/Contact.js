@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="container">
+        <div className="container mainheight">
         <div className="py-4">
             <h1>Contact Page</h1>
             <form>
