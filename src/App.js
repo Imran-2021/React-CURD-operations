@@ -8,6 +8,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import NotFound from './Components/Pages/NotFound';
 
 function App() {
 
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route exact path="/contact">
            <Contact/>
+        </Route>
+        <Route>
+           <NotFound/>
         </Route>
       </Switch>
     </Router>
